@@ -5,8 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace P202.Data
-{
-    internal class Provider
+{    public class Provider
     {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }
