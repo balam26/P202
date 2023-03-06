@@ -13,7 +13,7 @@ namespace P202.Data
         public int ProviderId { get; set; }
         public DateTime BuyDate { get; set; }
         public int Folio { get; set; }
-
+        public string Name { get; set; }
         #endregion
     }
 }
